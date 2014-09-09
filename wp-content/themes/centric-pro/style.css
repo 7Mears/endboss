@@ -1161,9 +1161,9 @@ Site Header
 }
 
 .site-title {
-	font-family: 'Spinnaker', sans-serif;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 60px;
-	font-weight: 700;
+	font-weight: 100;
 	line-height: 1.2;
 }
 
@@ -1172,7 +1172,6 @@ Site Header
 	color: #fff;
 	letter-spacing: 2px;
 	text-shadow: 3px 3px rgba( 0, 0, 0, 0.1 );
-	text-transform: uppercase;
 }
 
 .header-image .site-title > a {
