@@ -2536,3 +2536,13 @@ Media Queries
 	}
 	
 }
+
+
+/*
+End Boss Theme
+---------------------------------------------------------------------------------------------------- */
+/* Hide things */
+.site-footer,
+.no-header .page-title {
+  display: none;
+}
