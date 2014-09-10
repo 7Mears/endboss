@@ -23,7 +23,7 @@ add_theme_support( 'genesis-responsive-viewport' );
 add_action( 'wp_enqueue_scripts', 'centric_load_scripts' );
 function centric_load_scripts() {
 
-	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato:300,700|Jura:300', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Ubuntu:300,700|Jura:300', array(), CHILD_THEME_VERSION );
 	
 	wp_enqueue_style( 'dashicons' );
 	
