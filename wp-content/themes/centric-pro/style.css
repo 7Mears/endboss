@@ -174,12 +174,12 @@ textarea:focus,
 
 ::-moz-selection {
 	background-color: #2e2f33;
-	color: #fff;
+	color: #E2E2E2;
 }
 
 ::selection {
 	background-color: #2e2f33;
-	color: #fff;
+	color: #E2E2E2;
 }
 
 a {
@@ -422,7 +422,7 @@ input[type="submit"],
 	background-color: #2e2f33;
 	border-radius: 3px;
 	border: none;
-	color: #fff;
+	color: #E2E2E2;
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: 700;
@@ -440,7 +440,7 @@ input:hover[type="reset"],
 input:hover[type="submit"],
 .button:hover {
 	background-color: #13afdf;
-	color: #fff;
+	color: #E2E2E2;
 }
 
 .centric-pro-home .color-section button,
@@ -454,7 +454,7 @@ input:hover[type="submit"],
 .site-header .widget-area input[type="reset"],
 .site-header .widget-area input[type="submit"],
 .site-header .widget-area .button {
-	background-color: #fff;
+	background-color: #E2E2E2;
 	color: #2e2f33;
 }
 
@@ -470,7 +470,7 @@ input:hover[type="submit"],
 .site-header .widget-area input:hover[type="submit"],
 .site-header .widget-area .button:hover {
 	background-color: #2e2f33;
-	color: #fff;
+	color: #E2E2E2;
 }
 
 .centric-pro-home .dark-section button,
@@ -485,7 +485,7 @@ input:hover[type="submit"],
 .footer-widgets .wrap input[type="submit"],
 .footer-widgets .wrap .button {
 	background-color: #484a4e;
-	color: #fff;
+	color: #E2E2E2;
 }
 
 .centric-pro-home .dark-section button:hover,
@@ -505,7 +505,7 @@ input:hover[type="submit"],
 .centric-pro-home .dark-section .more-link:hover,
 .content .button:hover,
 .sidebar .button:hover {
-	color: #fff;
+	color: #E2E2E2;
 }
 
 .button {
@@ -522,7 +522,7 @@ input[type="search"]::-webkit-search-results-button {
 	background-color: #2e2f33;
     border-bottom: 3px solid #222;
 	border-radius: 5px;
-	color: #fff;
+	color: #E2E2E2;
 	display: block;
 	display: table;
 	font-size: 11px;
@@ -539,7 +539,7 @@ input[type="search"]::-webkit-search-results-button {
 .home-featured .more-link:hover,
 .home-widgets .more-link:hover {
 	background-color: #13afdf;
-	color: #fff;
+	color: #E2E2E2;
 }
 
 /* Tables
@@ -585,7 +585,7 @@ Structure and Layout
 }
 
 .site-inner {
-	background-color: #fff;
+	background-color: #E2E2E2;
 	clear: both;
 }
 
@@ -771,7 +771,7 @@ Common Classes
 --------------------------------------------- */
 
 .page-title {
-	color: #fff;
+	color: #E2E2E2;
 	padding: 40px 0 80px;
 	text-align: center;
 }
@@ -817,7 +817,7 @@ Common Classes
 }
 
 .footer-widgets .widget-title {
-	color: #fff;
+	color: #E2E2E2;
 	font-weight: 300;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -825,7 +825,7 @@ Common Classes
 
 .footer-widgets .entry-title a,
 .footer-widgets .featured-content .entry-title a {
-	color: #fff;
+	color: #E2E2E2;
 }
 
 /* WordPress
@@ -983,7 +983,7 @@ Plugins
 	border-top-left-radius: 0;
 	border: 1px solid #484a4e;
 	bottom: 0;
-	color: #fff;
+	color: #E2E2E2;
 	height: 53px;
 	margin: 0;
 	padding: 16px 24px;
@@ -992,7 +992,7 @@ Plugins
 }
 
 .enews-widget input:hover[type="submit"] {
-	border-color: #fff;
+	border-color: #E2E2E2;
 	border-left-color: #484a4e;
 }
 
@@ -1033,7 +1033,7 @@ Plugins
 }
 
 .home-widgets .latest-tweets .last a {
-	border: 2px solid #fff;
+	border: 2px solid #E2E2E2;
 	display: inline-block;
 	margin-top: 20px;
 	padding: 16px 24px;
@@ -1169,7 +1169,7 @@ Site Header
 
 .site-header .site-title a,
 .site-header .site-title a:hover {
-	color: #fff;
+	color: #E2E2E2;
 	letter-spacing: 2px;
 	text-shadow: 3px 3px rgba( 0, 0, 0, 0.1 );
 }
@@ -1200,7 +1200,7 @@ Site Header
 --------------------------------------------- */
 
 .site-header .widget-area {
-	color: #fff;
+	color: #E2E2E2;
 	float: right;
 	text-align: right;
 	padding-top: 10px;
@@ -1209,7 +1209,7 @@ Site Header
 
 .site-header .widget-area a,
 .site-header .widget-area a:hover {
-	color: #fff;
+	color: #E2E2E2;
 }
 
 /* Shrink
@@ -1260,7 +1260,7 @@ Site Navigation
 }
 
 .genesis-nav-menu li a {
-	color: #fff;
+	color: #E2E2E2;
 	display: block;
 	padding: 22px;
 }
@@ -1268,7 +1268,7 @@ Site Navigation
 .genesis-nav-menu li a:hover,
 .genesis-nav-menu .current-menu-item > a {
 	background-color: rgba(255, 255, 255, 0.1);
-	color: #fff;
+	color: #E2E2E2;
 }
 
 .genesis-nav-menu .sub-menu {
@@ -1319,7 +1319,7 @@ ul.genesis-nav-menu .sub-menu a:hover {
 }
 
 .genesis-nav-menu > .right {
-	color: #fff;
+	color: #E2E2E2;
 	float: right;
 	list-style-type: none;
 }
@@ -1372,7 +1372,7 @@ ul.genesis-nav-menu .sub-menu a:hover {
 
 #responsive-menu-icon::before {
 	-webkit-font-smoothing: antialiased;
-	color: #fff;
+	color: #E2E2E2;
 	content: "\f333";
 	font: normal 20px/1 'dashicons';
 	line-height: 1;
@@ -1425,7 +1425,7 @@ Content Area
 .centric-pro-home .dark-section .widget-title,
 .centric-pro-home .dark-section a,
 .centric-pro-home .dark-section {
-	color: #fff;
+	color: #E2E2E2;
 }
 
 .centric-pro-home .color-section a:hover {
@@ -1467,7 +1467,7 @@ Content Area
 }
 
 .arrow a {
-	background: #fff;
+	border-bottom: 1px dashed #E2E2E2;
 	border-radius: 30px;
 	display: inline-block;
 	padding: 13px 10px 6px;
@@ -1475,9 +1475,12 @@ Content Area
 	line-height: 1;
 }
 
+.arrow a:hover {
+    border-bottom: 1px solid #E2E2E2;
+}
 .arrow a:before {
 	-webkit-font-smoothing: antialiased;
-	color: #000;
+	color: #E2E2E2;
 	content: "\f347";
 	font: normal 40px/1 'dashicons';
 	height: 40px;
@@ -1485,7 +1488,7 @@ Content Area
 }
 
 .home-widgets-2 {
-	background-color: #fff;
+	background-color: #E2E2E2;
 	position: relative;
 	border-top: 60px solid transparent;
 	margin-top: -60px;
@@ -1503,12 +1506,12 @@ Content Area
 }
 
 .home-widgets-4 {
-	background-color: #2e2f33;
-	color: #fff;
+	background-color: #423F4F;
+	color: #E2E2E2;
 }
 
 .home-widgets-5 {
-	background: #f5f5f5;
+	background: #E2E2E2;
 }
 
 .home-widgets .widget.featuredpage {
@@ -1565,7 +1568,7 @@ Content Area
 }
 
 .pricing-table .one-third {
-	background-color: #fff;
+	background-color: #E2E2E2;
 	border: 2px solid #000;
 	margin: 0 -2px;
 	padding: 40px;
@@ -1741,7 +1744,7 @@ p.entry-meta {
 	background-color: #2e2f33;
 	border-radius: 3px;
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
-	color: #fff;
+	color: #E2E2E2;
 	cursor: pointer;
 	display: inline-block;
 	font-size: 16px;
@@ -1872,11 +1875,11 @@ Footer Widgets
 }
 
 .footer-widgets a:hover {
-	color: #fff;
+	color: #E2E2E2;
 }
 
 .footer-widgets input {
-	border-color: #fff;
+	border-color: #E2E2E2;
 }
 
 .footer-widgets li {
@@ -1932,7 +1935,7 @@ Site Footer
 }
 
 .site-footer a:hover {
-	color: #fff;
+	color: #E2E2E2;
 }
 
 .site-footer p {
@@ -1962,7 +1965,7 @@ Theme Colors
 .centric-pro-charcoal .button,
 .centric-pro-charcoal .footer-widgets a:hover,
 .centric-pro-charcoal .site-footer a:hover {
-	color: #fff;
+	color: #E2E2E2;
 }
 
 .centric-pro-charcoal a:hover {
@@ -1984,7 +1987,7 @@ Theme Colors
 .centric-pro-charcoal input:hover[type="reset"],
 .centric-pro-charcoal input:hover[type="submit"] {
 	background-color: #656d78;
-	color: #fff;
+	color: #E2E2E2;
 }
 
 /* Centric Green
@@ -1992,20 +1995,20 @@ Theme Colors
 
 .centric-pro-green .genesis-nav-menu .sub-menu,
 .centric-pro-green {
-	background-color: #435A66;
+	background-color: #565E75;
 }
 
 .centric-pro-green .entry-title a:hover,
 .centric-pro-green .footer-widgets .featured-content .entry-title a:hover,
 .centric-pro-green a,
 .green {
-	color: #435A66;
+	color: #565E75;
 }
 
 .centric-pro-green .button,
 .centric-pro-green .footer-widgets a:hover,
 .centric-pro-green .site-footer a:hover {
-	color: #fff;
+	color: #E2E2E2;
 }
 
 .centric-pro-green a:hover {
@@ -2026,8 +2029,8 @@ Theme Colors
 .centric-pro-green input:hover[type="button"],
 .centric-pro-green input:hover[type="reset"],
 .centric-pro-green input:hover[type="submit"] {
-	background-color: #435A66;
-	color: #fff;
+	background-color: #565E75;
+	color: #E2E2E2;
 }
 
 /* Centric Orange
@@ -2048,7 +2051,7 @@ Theme Colors
 .centric-pro-orange .button,
 .centric-pro-orange .footer-widgets a:hover,
 .centric-pro-orange .site-footer a:hover {
-	color: #fff;
+	color: #E2E2E2;
 }
 
 .centric-pro-orange a:hover {
@@ -2070,7 +2073,7 @@ Theme Colors
 .centric-pro-orange input:hover[type="reset"],
 .centric-pro-orange input:hover[type="submit"] {
 	background-color: #e9573f;
-	color: #fff;
+	color: #E2E2E2;
 }
 
 /* Centric Purple
@@ -2091,7 +2094,7 @@ Theme Colors
 .centric-pro-purple .button,
 .centric-pro-purple .footer-widgets a:hover,
 .centric-pro-purple .site-footer a:hover {
-	color: #fff;
+	color: #E2E2E2;
 }
 
 .centric-pro-purple a:hover {
@@ -2113,7 +2116,7 @@ Theme Colors
 .centric-pro-purple input:hover[type="reset"],
 .centric-pro-purple input:hover[type="submit"] {
 	background-color: #987197;
-	color: #fff;
+	color: #E2E2E2;
 }
 
 /* Centric Red
@@ -2134,7 +2137,7 @@ Theme Colors
 .centric-pro-red .button,
 .centric-pro-red .footer-widgets a:hover,
 .centric-pro-red .site-footer a:hover {
-	color: #fff;
+	color: #E2E2E2;
 }
 
 .centric-pro-red a:hover {
@@ -2156,7 +2159,7 @@ Theme Colors
 .centric-pro-red input:hover[type="reset"],
 .centric-pro-red input:hover[type="submit"] {
 	background-color: #e14d43;
-	color: #fff;
+	color: #E2E2E2;
 }
 
 /* Centric Yellow
@@ -2177,7 +2180,7 @@ Theme Colors
 .centric-pro-yellow .button,
 .centric-pro-yellow .footer-widgets a:hover,
 .centric-pro-yellow .site-footer a:hover {
-	color: #fff;
+	color: #E2E2E2;
 }
 
 .centric-pro-yellow a:hover {
@@ -2199,7 +2202,7 @@ Theme Colors
 .centric-pro-yellow input:hover[type="reset"],
 .centric-pro-yellow input:hover[type="submit"] {
 	background-color: #f6bb42;
-	color: #fff;
+	color: #E2E2E2;
 }
 
 
