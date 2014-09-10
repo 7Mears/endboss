@@ -484,7 +484,7 @@ input:hover[type="submit"],
 .footer-widgets .wrap input[type="reset"],
 .footer-widgets .wrap input[type="submit"],
 .footer-widgets .wrap .button {
-	background-color: #484a4e;
+	background-color: #218777;
 	color: #E2E2E2;
 }
 
@@ -542,6 +542,10 @@ input[type="search"]::-webkit-search-results-button {
 	color: #E2E2E2;
 }
 
+.home-featured .more-link:active,
+.home-widgets .more-link:active {
+  border: 0;
+}
 /* Tables
 --------------------------------------------- */
 
