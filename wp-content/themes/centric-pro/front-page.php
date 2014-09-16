@@ -70,22 +70,22 @@ function centric_home_widgets() {
 	echo '<div id="home-widgets" class="home-widgets">';
 	
 	genesis_widget_area( 'home-widgets-2', array(
-		'before' => '<div class="home-widgets-2 widget-area">',
+		'before' => '<div id="about" class="home-widgets-2 widget-area">',
 		'after'  => '</div>',
 	) );
 	
 	genesis_widget_area( 'home-widgets-3', array(
-		'before' => '<div class="home-widgets-3 color-section widget-area">',
+		'before' => '<div id="services" class="home-widgets-3 color-section widget-area">',
 		'after'  => '</div>',
 	) );
 	
 	genesis_widget_area( 'home-widgets-4', array(
-		'before' => '<div class="home-widgets-4 dark-section widget-area">',
+		'before' => '<div id="members" class="home-widgets-4 dark-section widget-area">',
 		'after'  => '</div>',
 	) );
 	
 	genesis_widget_area( 'home-widgets-5', array(
-		'before' => '<div class="home-widgets-5 widget-area">',
+		'before' => '<div id="portfolio" class="home-widgets-5 widget-area">',
 		'after'  => '</div>',
 	) );
 	

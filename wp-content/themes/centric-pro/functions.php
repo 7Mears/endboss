@@ -174,3 +174,25 @@ genesis_register_sidebar( array(
 	'name'        => __( 'Home 6', 'centric' ),
 	'description' => __( 'This is the sixth section of the home page.', 'centric' ),
 ) );
+
+
+//
+//* Jordans additions below
+//
+
+//* Register Roster Page widget area
+genesis_register_sidebar( array(
+	'id'			=> 'rosterpage',
+	'name'			=> __( 'Roster Page', 'nabm' ),
+	'description'	=> __( 'This is the widget area for the roster page.', 'nabm' ),
+) );
+
+
+//* Add the Roster widget to the roster page - HTML5
+add_action( 'genesis_entry_footer', 'nabm_add_page_content' );
+function nabm_add_page_content() {
+	if ( is_page('70') )
+	genesis_widget_area( 'rosterpage', array(
+		'before' => '<div id="rosterpage">',
+	) );
+}
