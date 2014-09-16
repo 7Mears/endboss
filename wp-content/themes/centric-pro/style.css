@@ -1,11 +1,11 @@
 /*
-	Theme Name: Centric Theme
-	Theme URI: http://my.studiopress.com/themes/centric/
+	Theme Name: EndBoss Theme
+	Theme URI: http://www.endboss.ca/
 	Description: A mobile responsive and HTML5 theme built for the Genesis Framework.
-	Author: StudioPress
-	Author URI: http://www.studiopress.com/
+	Author: EndBoss
+	Author URI: http://www.endboss.ca/
 	
-	Version: 1.1
+	Version: 0.915
  
 	Tags: black, green, orange, purple, red, yellow, white, one-column, two-columns, three-columns, responsive-layout, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, premise-landing-page
  
@@ -148,11 +148,11 @@ Defaults
 --------------------------------------------- */
 
 body {
-	background-color: #13afdf;
+	background-color: #1C1D21;
 	color: #2e2f33;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
-	font-weight: 300;
+	font-weight: 100;
 	line-height: 1.625;
 }
 
@@ -164,26 +164,29 @@ input[type="reset"],
 input[type="submit"],
 textarea:focus,
 .button,
-.more-link {
-	-webkit-transition: all 0.1s ease-in-out;
-	-moz-transition:    all 0.1s ease-in-out;
-	-ms-transition:     all 0.1s ease-in-out;
-	-o-transition:      all 0.1s ease-in-out;
-	transition:         all 0.1s ease-in-out;
+.more-link,
+.more-link:before,
+.more-link:hover,
+.more-link:hover:before {
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition:    all 0.3s ease-in-out;
+	-ms-transition:     all 0.3s ease-in-out;
+	-o-transition:      all 0.3s ease-in-out;
+	transition:         all 0.3s ease-in-out;
 }
 
 ::-moz-selection {
 	background-color: #2e2f33;
-	color: #E2E2E2;
+	color: #EEEFF7;
 }
 
 ::selection {
 	background-color: #2e2f33;
-	color: #E2E2E2;
+	color: #EEEFF7;
 }
 
 a {
-	color: #13afdf;
+	color: #1C1D21;
 	text-decoration: none;
 }
 
@@ -245,9 +248,11 @@ h4,
 h5,
 h6 {
 	font-family: 'Jura', sans-serif;
+	color: #92CDCF;
 	font-weight: 700;
 	line-height: 1.2;
 	margin: 0 0 15px;
+	text-shadow: 20px 2px 20px rgba(146, 205, 207, 0.7);
 }
 
 h1 {
@@ -422,7 +427,7 @@ input[type="submit"],
 	background-color: #2e2f33;
 	border-radius: 3px;
 	border: none;
-	color: #E2E2E2;
+	color: #EEEFF7;
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: 700;
@@ -433,14 +438,15 @@ input[type="submit"],
 	text-transform: uppercase;
 	width: auto;
 }
+/*
 
 button:hover,
 input:hover[type="button"],
 input:hover[type="reset"],
 input:hover[type="submit"],
 .button:hover {
-	background-color: #13afdf;
-	color: #E2E2E2;
+	background-color: #1C1D21;
+	color: #EEEFF7;
 }
 
 .centric-pro-home .color-section button,
@@ -454,7 +460,7 @@ input:hover[type="submit"],
 .site-header .widget-area input[type="reset"],
 .site-header .widget-area input[type="submit"],
 .site-header .widget-area .button {
-	background-color: #E2E2E2;
+	background-color: #445878;
 	color: #2e2f33;
 }
 
@@ -470,7 +476,7 @@ input:hover[type="submit"],
 .site-header .widget-area input:hover[type="submit"],
 .site-header .widget-area .button:hover {
 	background-color: #2e2f33;
-	color: #E2E2E2;
+	color: #EEEFF7;
 }
 
 .centric-pro-home .dark-section button,
@@ -484,8 +490,8 @@ input:hover[type="submit"],
 .footer-widgets .wrap input[type="reset"],
 .footer-widgets .wrap input[type="submit"],
 .footer-widgets .wrap .button {
-	background-color: #218777;
-	color: #E2E2E2;
+	background-color: #92CDCF;
+	color: #1C1D21;
 }
 
 .centric-pro-home .dark-section button:hover,
@@ -505,8 +511,9 @@ input:hover[type="submit"],
 .centric-pro-home .dark-section .more-link:hover,
 .content .button:hover,
 .sidebar .button:hover {
-	color: #E2E2E2;
+	color: #EEEFF7;
 }
+*/
 
 .button {
 	display: inline-block;
@@ -517,29 +524,51 @@ input[type="search"]::-webkit-search-results-button {
 	display: none;
 }
 
-.home-featured .more-link,
-.home-widgets .more-link {
-	background-color: #2e2f33;
-    border-bottom: 3px solid #222;
-	border-radius: 5px;
-	color: #E2E2E2;
+.more-link {
+/*    border-bottom: 1px solid #445878;*/
+	background-color: rgba(146, 205, 207, 0.1);
+	color: #1C1D21;
 	display: block;
 	display: table;
+	font-family: 'Jura', sans-serif;
 	font-size: 11px;
 	font-weight: 700;
 	letter-spacing: 2px;
 	line-height: 1;
 	margin: 20px auto 0;
 	max-width: 200px;
-	padding: 20px 24px;
+	padding: 15px 24px;
 	text-align: center;
 	text-transform: uppercase;
+	position: relative;
+  	background-image: linear-gradient(
+      90deg, 
+      rgba(146, 205, 207, 0.4), rgba(146, 205, 207, 0.1)
+    );
 }
 
-.home-featured .more-link:hover,
-.home-widgets .more-link:hover {
-	background-color: #13afdf;
-	color: #E2E2E2;
+.more-link:before {
+	content: " ";
+	position: absolute;
+	left: -6px;
+	top: 0;
+	height: 100%;
+	width: 3px;
+	background-color: #92CDCF;
+}
+.more-link:hover:before {
+	background-color: #F53357;
+  	box-shadow: 1px 1px 10px 1px #F53357;
+}
+
+.more-link:active:before {
+	background-color: #445878;
+  	box-shadow: 1px 1px 10px 1px #445878;
+}
+
+.more-link:hover {
+	background-color: rgba(146, 205, 207, 0.7);
+	color: #445878;
 }
 
 .home-featured .more-link:active,
@@ -589,7 +618,7 @@ Structure and Layout
 }
 
 .site-inner {
-	background-color: #E2E2E2;
+	background-color: #EEEFF7;
 	clear: both;
 }
 
@@ -775,7 +804,7 @@ Common Classes
 --------------------------------------------- */
 
 .page-title {
-	color: #E2E2E2;
+	color: #EEEFF7;
 	padding: 40px 0 80px;
 	text-align: center;
 }
@@ -798,7 +827,7 @@ Common Classes
 
 .entry-title a:hover,
 .footer-widgets .featured-content .entry-title a:hover {
-	color: #13afdf;
+	color: #1C1D21;
 }
 
 .widget-title {
@@ -821,7 +850,7 @@ Common Classes
 }
 
 .footer-widgets .widget-title {
-	color: #E2E2E2;
+	color: #EEEFF7;
 	font-weight: 300;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -829,7 +858,7 @@ Common Classes
 
 .footer-widgets .entry-title a,
 .footer-widgets .featured-content .entry-title a {
-	color: #E2E2E2;
+	color: #EEEFF7;
 }
 
 /* WordPress
@@ -987,7 +1016,7 @@ Plugins
 	border-top-left-radius: 0;
 	border: 1px solid #484a4e;
 	bottom: 0;
-	color: #E2E2E2;
+	color: #EEEFF7;
 	height: 53px;
 	margin: 0;
 	padding: 16px 24px;
@@ -996,7 +1025,7 @@ Plugins
 }
 
 .enews-widget input:hover[type="submit"] {
-	border-color: #E2E2E2;
+	border-color: #EEEFF7;
 	border-left-color: #484a4e;
 }
 
@@ -1037,7 +1066,7 @@ Plugins
 }
 
 .home-widgets .latest-tweets .last a {
-	border: 2px solid #E2E2E2;
+	border: 2px solid #EEEFF7;
 	display: inline-block;
 	margin-top: 20px;
 	padding: 16px 24px;
@@ -1120,7 +1149,7 @@ Site Header
 ---------------------------------------------------------------------------------------------------- */
 
 .site-header {
-	background-color: #13afdf;
+/*	background-color: #1C1D21;*/
 	left: 0;
 	position: fixed;
 	top: 0;
@@ -1170,10 +1199,14 @@ Site Header
 	font-size: 60px;
 	line-height: 1.2;
 }
+.home .site-title {
+	display: none;
+}
+
 
 .site-header .site-title a,
 .site-header .site-title a:hover {
-	color: #E2E2E2;
+	color: #EEEFF7;
 	letter-spacing: 2px;
 	text-shadow: 3px 3px rgba( 0, 0, 0, 0.1 );
 }
@@ -1204,7 +1237,7 @@ Site Header
 --------------------------------------------- */
 
 .site-header .widget-area {
-	color: #E2E2E2;
+	color: #EEEFF7;
 	float: right;
 	text-align: right;
 	padding-top: 10px;
@@ -1213,14 +1246,14 @@ Site Header
 
 .site-header .widget-area a,
 .site-header .widget-area a:hover {
-	color: #E2E2E2;
+	color: #EEEFF7;
 }
 
 /* Shrink
 --------------------------------------------- */
 
 .site-header.shrink .wrap {
-	background-color: rgba(255, 255, 255, 0.1);
+	background-color: rgba(28, 29, 33, 0.9);
 	min-height: 60px;
 	padding: 0 40px;
 }
@@ -1228,6 +1261,7 @@ Site Header
 .shrink .site-title {
 	font-size: 36px;
 	padding-top: 10px;
+	display: block;
 }
 
 .header-image .shrink .site-title {
@@ -1252,6 +1286,7 @@ Site Navigation
 
 .genesis-nav-menu {
 	-webkit-font-smoothing: subpixel-antialiased;
+	font-family: 'Jura', sans-serif;
 	clear: both;
 	font-size: 16px;
 	line-height: 1;
@@ -1264,19 +1299,23 @@ Site Navigation
 }
 
 .genesis-nav-menu li a {
-	color: #E2E2E2;
+	color: #EEEFF7;
 	display: block;
 	padding: 22px;
+	border-bottom: 3px solid rgba(0,0,0,0);
 }
 
 .genesis-nav-menu li a:hover,
 .genesis-nav-menu .current-menu-item > a {
-	background-color: rgba(255, 255, 255, 0.1);
-	color: #E2E2E2;
+	  	background-image: linear-gradient( 
+      rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1)
+    );
+	color: #EEEFF7;
+	border-bottom: 3px solid #92CDCF;
 }
 
 .genesis-nav-menu .sub-menu {
-	background-color: #13afdf;
+	background-color: #1C1D21;
 	left: -9999px;
 	opacity: 0;
 	position: absolute;
@@ -1323,7 +1362,7 @@ ul.genesis-nav-menu .sub-menu a:hover {
 }
 
 .genesis-nav-menu > .right {
-	color: #E2E2E2;
+	color: #EEEFF7;
 	float: right;
 	list-style-type: none;
 }
@@ -1376,7 +1415,7 @@ ul.genesis-nav-menu .sub-menu a:hover {
 
 #responsive-menu-icon::before {
 	-webkit-font-smoothing: antialiased;
-	color: #E2E2E2;
+	color: #EEEFF7;
 	content: "\f333";
 	font: normal 20px/1 'dashicons';
 	line-height: 1;
@@ -1399,6 +1438,9 @@ Content Area
 	max-width: 1280px;
 	padding: 40px 0;
 	overflow: hidden;
+}
+.home-widgets .widget-title,
+.home-widgets .entry-title {
 	text-align: center;
 }
 
@@ -1429,7 +1471,7 @@ Content Area
 .centric-pro-home .dark-section .widget-title,
 .centric-pro-home .dark-section a,
 .centric-pro-home .dark-section {
-	color: #E2E2E2;
+	color: #EEEFF7;
 }
 
 .centric-pro-home .color-section a:hover {
@@ -1461,38 +1503,10 @@ Content Area
     font-family: 'Jura', sans-serif;
 	font-weight: 300;
 	line-height: 1;
-	text-shadow: 3px 3px rgba( 0, 0, 0, 0.1 );
-}
-
-.arrow {
-	margin: 0;
-	text-align: center;
-	width: 100%;
-}
-
-.arrow a {
-	border-bottom: 1px dashed #E2E2E2;
-	border-radius: 30px;
-	display: inline-block;
-	padding: 13px 10px 6px;
-	text-align: center;
-	line-height: 1;
-}
-
-.arrow a:hover {
-    border-bottom: 1px solid #E2E2E2;
-}
-.arrow a:before {
-	-webkit-font-smoothing: antialiased;
-	color: #E2E2E2;
-	content: "\f347";
-	font: normal 40px/1 'dashicons';
-	height: 40px;
-	width: 40px;
 }
 
 .home-widgets-2 {
-	background-color: #E2E2E2;
+	background-color: #EEEFF7;
 	position: relative;
 	border-top: 60px solid transparent;
 	margin-top: -60px;
@@ -1510,12 +1524,12 @@ Content Area
 }
 
 .home-widgets-4 {
-	background-color: #423F4F;
-	color: #E2E2E2;
+	background-color: #31353D;
+	color: #EEEFF7;
 }
 
 .home-widgets-5 {
-	background: #E2E2E2;
+	background: #EEEFF7;
 }
 
 .home-widgets .widget.featuredpage {
@@ -1572,7 +1586,7 @@ Content Area
 }
 
 .pricing-table .one-third {
-	background-color: #E2E2E2;
+	background-color: #EEEFF7;
 	border: 2px solid #000;
 	margin: 0 -2px;
 	padding: 40px;
@@ -1748,7 +1762,7 @@ p.entry-meta {
 	background-color: #2e2f33;
 	border-radius: 3px;
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
-	color: #E2E2E2;
+	color: #EEEFF7;
 	cursor: pointer;
 	display: inline-block;
 	font-size: 16px;
@@ -1757,7 +1771,7 @@ p.entry-meta {
 
 .archive-pagination li a:hover,
 .archive-pagination .active a {
-	background-color: #13afdf;
+	background-color: #1C1D21;
 }
 
 /* Comments
@@ -1797,7 +1811,7 @@ li.comment {
 }
 
 .comment-header a:hover {
-	color: #13afdf;
+	color: #1C1D21;
 }
 
 .comment-author,
@@ -1879,11 +1893,11 @@ Footer Widgets
 }
 
 .footer-widgets a:hover {
-	color: #E2E2E2;
+	color: #EEEFF7;
 }
 
 .footer-widgets input {
-	border-color: #E2E2E2;
+	border-color: #EEEFF7;
 }
 
 .footer-widgets li {
@@ -1939,276 +1953,12 @@ Site Footer
 }
 
 .site-footer a:hover {
-	color: #E2E2E2;
+	color: #EEEFF7;
 }
 
 .site-footer p {
 	margin-bottom: 0;
 }
-
-
-/*
-Theme Colors
----------------------------------------------------------------------------------------------------- */
-
-/* Centric Charcoal
---------------------------------------------- */
-
-.centric-pro-charcoal .genesis-nav-menu .sub-menu,
-.centric-pro-charcoal {
-	background-color: #656d78;
-}
-
-.centric-pro-charcoal .entry-title a:hover,
-.centric-pro-charcoal .footer-widgets .featured-content .entry-title a:hover,
-.centric-pro-charcoal a,
-.charcoal {
-	color: #656d78;
-}
-
-.centric-pro-charcoal .button,
-.centric-pro-charcoal .footer-widgets a:hover,
-.centric-pro-charcoal .site-footer a:hover {
-	color: #E2E2E2;
-}
-
-.centric-pro-charcoal a:hover {
-	color: #2e2f33;
-}
-
-.centric-pro-charcoal .footer-widgets a,
-.centric-pro-charcoal .site-footer a {
-	color: #959595;
-}
-
-.centric-pro-charcoal .archive-pagination .active a,
-.centric-pro-charcoal .archive-pagination li a:hover,
-.centric-pro-charcoal .button:hover,
-.centric-pro-charcoal .home-widgets .more-link:hover,
-.centric-pro-charcoal .site-header,
-.centric-pro-charcoal button:hover,
-.centric-pro-charcoal input:hover[type="button"],
-.centric-pro-charcoal input:hover[type="reset"],
-.centric-pro-charcoal input:hover[type="submit"] {
-	background-color: #656d78;
-	color: #E2E2E2;
-}
-
-/* Centric Green
---------------------------------------------- */
-
-.centric-pro-green .genesis-nav-menu .sub-menu,
-.centric-pro-green {
-	background-color: #565E75;
-}
-
-.centric-pro-green .entry-title a:hover,
-.centric-pro-green .footer-widgets .featured-content .entry-title a:hover,
-.centric-pro-green a,
-.green {
-	color: #565E75;
-}
-
-.centric-pro-green .button,
-.centric-pro-green .footer-widgets a:hover,
-.centric-pro-green .site-footer a:hover {
-	color: #E2E2E2;
-}
-
-.centric-pro-green a:hover {
-	color: #2e2f33;
-}
-
-.centric-pro-green .footer-widgets a,
-.centric-pro-green .site-footer a {
-	color: #959595;
-}
-
-.centric-pro-green .archive-pagination .active a,
-.centric-pro-green .archive-pagination li a:hover,
-.centric-pro-green .button:hover,
-.centric-pro-green .home-widgets .more-link:hover,
-.centric-pro-green .site-header,
-.centric-pro-green button:hover,
-.centric-pro-green input:hover[type="button"],
-.centric-pro-green input:hover[type="reset"],
-.centric-pro-green input:hover[type="submit"] {
-	background-color: #565E75;
-	color: #E2E2E2;
-}
-
-/* Centric Orange
---------------------------------------------- */
-
-.centric-pro-orange .genesis-nav-menu .sub-menu,
-.centric-pro-orange {
-	background-color: #e9573f;
-}
-
-.centric-pro-orange .entry-title a:hover,
-.centric-pro-orange .footer-widgets .featured-content .entry-title a:hover,
-.centric-pro-orange a,
-.orange {
-	color: #e9573f;
-}
-
-.centric-pro-orange .button,
-.centric-pro-orange .footer-widgets a:hover,
-.centric-pro-orange .site-footer a:hover {
-	color: #E2E2E2;
-}
-
-.centric-pro-orange a:hover {
-	color: #2e2f33;
-}
-
-.centric-pro-orange .footer-widgets a,
-.centric-pro-orange .site-footer a {
-	color: #959595;
-}
-
-.centric-pro-orange .archive-pagination .active a,
-.centric-pro-orange .archive-pagination li a:hover,
-.centric-pro-orange .button:hover,
-.centric-pro-orange .home-widgets .more-link:hover,
-.centric-pro-orange .site-header,
-.centric-pro-orange button:hover,
-.centric-pro-orange input:hover[type="button"],
-.centric-pro-orange input:hover[type="reset"],
-.centric-pro-orange input:hover[type="submit"] {
-	background-color: #e9573f;
-	color: #E2E2E2;
-}
-
-/* Centric Purple
---------------------------------------------- */
-
-.centric-pro-purple .genesis-nav-menu .sub-menu,
-.centric-pro-purple {
-	background-color: #987197;
-}
-
-.centric-pro-purple .entry-title a:hover,
-.centric-pro-purple .footer-widgets .featured-content .entry-title a:hover,
-.centric-pro-purple a,
-.purple {
-	color: #987197;
-}
-
-.centric-pro-purple .button,
-.centric-pro-purple .footer-widgets a:hover,
-.centric-pro-purple .site-footer a:hover {
-	color: #E2E2E2;
-}
-
-.centric-pro-purple a:hover {
-	color: #2e2f33;
-}
-
-.centric-pro-purple .footer-widgets a,
-.centric-pro-purple .site-footer a {
-	color: #959595;
-}
-
-.centric-pro-purple .archive-pagination .active a,
-.centric-pro-purple .archive-pagination li a:hover,
-.centric-pro-purple .button:hover,
-.centric-pro-purple .home-widgets .more-link:hover,
-.centric-pro-purple .site-header,
-.centric-pro-purple button:hover,
-.centric-pro-purple input:hover[type="button"],
-.centric-pro-purple input:hover[type="reset"],
-.centric-pro-purple input:hover[type="submit"] {
-	background-color: #987197;
-	color: #E2E2E2;
-}
-
-/* Centric Red
---------------------------------------------- */
-
-.centric-pro-red .genesis-nav-menu .sub-menu,
-.centric-pro-red {
-	background-color: #e14d43;
-}
-
-.centric-pro-red .entry-title a:hover,
-.centric-pro-red .footer-widgets .featured-content .entry-title a:hover,
-.centric-pro-red a,
-.red {
-	color: #e14d43;
-}
-
-.centric-pro-red .button,
-.centric-pro-red .footer-widgets a:hover,
-.centric-pro-red .site-footer a:hover {
-	color: #E2E2E2;
-}
-
-.centric-pro-red a:hover {
-	color: #2e2f33;
-}
-
-.centric-pro-red .footer-widgets a,
-.centric-pro-red .site-footer a {
-	color: #959595;
-}
-
-.centric-pro-red .archive-pagination .active a,
-.centric-pro-red .archive-pagination li a:hover,
-.centric-pro-red .button:hover,
-.centric-pro-red .home-widgets .more-link:hover,
-.centric-pro-red .site-header,
-.centric-pro-red button:hover,
-.centric-pro-red input:hover[type="button"],
-.centric-pro-red input:hover[type="reset"],
-.centric-pro-red input:hover[type="submit"] {
-	background-color: #e14d43;
-	color: #E2E2E2;
-}
-
-/* Centric Yellow
---------------------------------------------- */
-
-.centric-pro-yellow .genesis-nav-menu .sub-menu,
-.centric-pro-yellow {
-	background-color: #f6bb42;
-}
-
-.centric-pro-yellow .entry-title a:hover,
-.centric-pro-yellow .footer-widgets .featured-content .entry-title a:hover,
-.centric-pro-yellow a,
-.yellow {
-	color: #f6bb42;
-}
-
-.centric-pro-yellow .button,
-.centric-pro-yellow .footer-widgets a:hover,
-.centric-pro-yellow .site-footer a:hover {
-	color: #E2E2E2;
-}
-
-.centric-pro-yellow a:hover {
-	color: #2e2f33;
-}
-
-.centric-pro-yellow .footer-widgets a,
-.centric-pro-yellow .site-footer a {
-	color: #959595;
-}
-
-.centric-pro-yellow .archive-pagination .active a,
-.centric-pro-yellow .archive-pagination li a:hover,
-.centric-pro-yellow .button:hover,
-.centric-pro-yellow .home-widgets .more-link:hover,
-.centric-pro-yellow .site-header,
-.centric-pro-yellow button:hover,
-.centric-pro-yellow input:hover[type="button"],
-.centric-pro-yellow input:hover[type="reset"],
-.centric-pro-yellow input:hover[type="submit"] {
-	background-color: #f6bb42;
-	color: #E2E2E2;
-}
-
 
 /*
 Media Queries
@@ -2550,16 +2300,19 @@ Media Queries
 /*
 End Boss Theme
 ---------------------------------------------------------------------------------------------------- */
+
 /* Hide things */
 .site-footer,
 .no-header .page-title {
   display: none;
 }
 
-/* Meet the collective */
+/* Backgrounds */
+
 /*
-#featured-post-2 .entry-image {
-  border-bottom: 3px solid #565E75;
-  border-radius: 5%;
+.home-featured {
+	background: url('http://localhost/endboss/wp-content/uploads/2014/09/herobg.jpg');
+	background-size: cover;
 }
 */
+

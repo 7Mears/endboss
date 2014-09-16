@@ -11,7 +11,7 @@ load_child_theme_textdomain( 'centric', apply_filters( 'child_theme_textdomain',
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', __( 'Centric Theme', 'centric' ) );
 define( 'CHILD_THEME_URL', 'http://my.studiopress.com/themes/centric/' );
-define( 'CHILD_THEME_VERSION', '1.1' );
+define( 'CHILD_THEME_VERSION', '1' );
 
 //* Add HTML5 markup structure
 add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list', 'gallery', 'caption' ) );
@@ -23,7 +23,7 @@ add_theme_support( 'genesis-responsive-viewport' );
 add_action( 'wp_enqueue_scripts', 'centric_load_scripts' );
 function centric_load_scripts() {
 
-	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Ubuntu:300,700|Jura:300', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Roboto:100,300,700|Jura:300', array(), CHILD_THEME_VERSION );
 	
 	wp_enqueue_style( 'dashicons' );
 	
@@ -54,16 +54,6 @@ add_theme_support( 'genesis-structural-wraps', array(
 	'site-inner',
 	'footer-widgets',
 	'footer',
-) );
-
-//* Add support for additional color style options
-add_theme_support( 'genesis-style-selector', array(
-	'centric-pro-charcoal' => __( 'Centric Charcoal', 'centric' ),
-	'centric-pro-green'    => __( 'Centric Green', 'centric' ),
-	'centric-pro-orange'   => __( 'Centric Orange', 'centric' ),
-	'centric-pro-purple'   => __( 'Centric Purple', 'centric' ),
-	'centric-pro-red'      => __( 'Centric Red', 'centric' ),
-	'centric-pro-yellow'   => __( 'Centric Yellow', 'centric' ),
 ) );
 
 //* Unregister layout settings
