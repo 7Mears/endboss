@@ -1149,7 +1149,6 @@ Site Header
 ---------------------------------------------------------------------------------------------------- */
 
 .site-header {
-/*	background-color: #1C1D21;*/
 	left: 0;
 	position: fixed;
 	top: 0;
@@ -1196,8 +1195,10 @@ Site Header
 }
 
 .site-title {
-	font-size: 60px;
-	line-height: 1.2;
+	font-size: 30px;
+	font-weight: 300;
+	padding-top: 10px;
+	display: block;
 }
 .home .site-title {
 	display: none;
@@ -1259,7 +1260,8 @@ Site Header
 }
 
 .shrink .site-title {
-	font-size: 36px;
+	font-size: 30px;
+	font-weight: 300;
 	padding-top: 10px;
 	display: block;
 }
@@ -2309,10 +2311,7 @@ End Boss Theme
 
 /* Backgrounds */
 
-/*
 .home-featured {
-	background: url('http://localhost/endboss/wp-content/uploads/2014/09/herobg.jpg');
-	background-size: cover;
+	background: url(images/marquee-stars.svg) #31353D;
 }
-*/
 
