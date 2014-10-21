@@ -467,7 +467,7 @@ input[type="search"]::-webkit-search-results-button {
 	position: relative;
   	background-image: linear-gradient(
       90deg, 
-      rgba(146, 205, 207, 0.4), rgba(146, 205, 207, 0.1)
+      rgba(146, 205, 207, 0.4), rgba(146, 205, 207, 0)
     );
 }
 
@@ -2196,15 +2196,17 @@ End Boss Theme
     background-attachment: fixed;
 }
 
+.home-featured span {
+	width: 100%;
+}
 .moon {
 	position: absolute;
 	bottom: -100px;
 	left: 0;
 	z-index: 1;
-  display: block;
-  text-indent: -9999px;
-  width: 100%;
-  height: 275px;
-  background: url(images/moon.svg);
-  background-size: contain;
+  	display: block;
+  	text-indent: -9999px;
+  	width: 1440px;
+  	height: 227px;
+  	background: url(images/moon.svg) repeat-x;
 }
